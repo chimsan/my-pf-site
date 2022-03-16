@@ -1,6 +1,6 @@
 <template lang="pug">
   footer(id="footer")
-    button(@click="gotoTop" class="btn-goto-top")
+    nuxt-link(class="btn-goto-top" tag="button" to="#" v-scroll-to="{el: '#header'}")
       span TOP
     h3 contact
     p
@@ -12,15 +12,7 @@
 
 <script>
 export default {
-  name: 'SiteFooter',
-  methods: {
-    gotoTop() {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      })
-    }
-  }
+  name: 'SiteFooter'
 }
 </script>
 
