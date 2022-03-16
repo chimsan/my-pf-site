@@ -66,7 +66,7 @@ export default {
   background-color: g.$bg-footer;
   min-width: g.$device-sp-min;
   box-sizing: border-box;
-  margin-top: 6rem;
+  margin-top: 12rem;
   padding: 3rem 10rem;
   @media screen and (max-width: g.$device-sp) {
     padding: 3rem 2.5rem;
