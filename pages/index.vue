@@ -26,6 +26,8 @@ export default {
 
 .c-arrows {
   margin-top: 6rem;
+  margin-left: auto;
+  margin-right: auto;
   @media screen and (max-width: g.$device-sp) {
     margin-top: 3rem;
   }
