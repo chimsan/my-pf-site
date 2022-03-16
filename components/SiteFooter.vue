@@ -38,6 +38,7 @@ export default {
     border-left: 4rem solid transparent;
     border-right: 4rem solid transparent;
     border-bottom: 4rem solid g.$bg-footer;
+    line-height: 1.15;
     & > span {
       color: g.$fc-footer;
       width: 8rem;

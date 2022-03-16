@@ -50,15 +50,11 @@ section[class^="page-"] {
   box-sizing: border-box;
   padding: 0 10rem;
   min-width: g.$device-sp-min;
+  z-index: g.$z-page;
   @media screen and (max-width: g.$device-sp) {
     padding: 0 2.5rem;
   }
 }
 
 #header {
-  padding:  10rem;
-  min-width: g.$device-sp-min;
-  @media screen and (max-width: g.$device-sp) {
-    padding: 0 2.5rem;
-  }
 }

@@ -1,10 +1,12 @@
 // bgcolor設定
 $bg-base: #e8e1e4;
 $bg-footer: #D9AD9A;
+$bg-header-sp: #29000A;
 
 // font color
 $fc-base: #29000A;
 $fc-footer: #e8e1e4;
+$fc-header-sp: #e8e1e4;
 
 // link color
 $fc-link: #29000A;
@@ -26,6 +28,13 @@ $device-sp-min: 320px;
 $device-sp: 750px;
 $device-pc: 751px;
 
+
+// z-index
+$z-page: 10;
+$z-sp-menu: 11;
+$z-sp-menu-link: 12;
+$z-sp-menu-btn: 13;
+$z-sp-menu-btn-active: 14;
 
 // //tab
 // @media screen and (min-width: 600px) {

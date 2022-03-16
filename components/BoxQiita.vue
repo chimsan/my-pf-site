@@ -1,6 +1,6 @@
 <template lang="pug">
-  section(class="section c-skill")
-    h3(id="skill") Qiita
+  section(class="section c-qiita")
+    h3(id="qiita") Qiita
     p
       | 技術的な情報まとめ（諸事情により限定公開）
     ul
@@ -20,14 +20,14 @@
 
 <script>
 export default {
-  name: 'BoxSkill'
+  name: 'BoxQiita'
 }
 </script>
 
 <style lang="scss" scoped>
 @use '@/assets/scss/global' as g;
 
-.c-skill {
+.c-qiita {
   ul {
     li {
       list-style: circle;
