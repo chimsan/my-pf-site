@@ -58,3 +58,16 @@ figure {
   margin: 0;
   padding: 0;
 }
+
+button{
+  cursor: pointer;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  &:active,
+  &:hover {
+    background-color: transparent;
+  }
+}
