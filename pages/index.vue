@@ -33,6 +33,7 @@ export default {
   }
   svg {
     display: flex;
+    justify-content: center;
     margin: auto;
   }
 }
