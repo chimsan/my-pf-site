@@ -1,0 +1,64 @@
+@use '@/assets/scss/global' as g;
+
+body {
+  font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;  font-family: serif;
+  font-size: g.$fs-base;
+  background-color: g.$bg-base;
+  color: g.$fc-base;
+}
+
+p {
+  font-size: g.$fs-base;
+  line-height: 2.6rem;
+}
+
+h3 {
+  font-size: g.$fs-x-large;
+  line-height: 1.0;
+  display: flex;
+  align-items: center;
+  margin: 0 0 3rem 0;
+  &::before {
+    flex: 0 0 auto;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 35px;
+    margin-right: 10px;
+    background-color: g.$fc-base;
+  }
+
+}
+
+.section {
+  margin-top: 12rem;
+  @media screen and (max-width: g.$device-sp) {
+    margin-top: 6rem;
+  }
+
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    color: g.$fc-link-hover;
+  }
+}
+
+section[class^="page-"] {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 10rem;
+  min-width: g.$device-sp-min;
+  @media screen and (max-width: g.$device-sp) {
+    padding: 0 2.5rem;
+  }
+}
+
+#header {
+  padding:  10rem;
+  min-width: g.$device-sp-min;
+  @media screen and (max-width: g.$device-sp) {
+    padding: 0 2.5rem;
+  }
+}

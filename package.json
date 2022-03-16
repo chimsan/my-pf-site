@@ -17,6 +17,7 @@
     "fibers": "^5.0.1",
     "normalize.css": "^8.0.1",
     "nuxt": "^2.15.8",
+    "nuxt-svg-loader": "^1.2.0",
     "pug": "^3.0.2",
     "pug-loader": "^2.4.0",
     "pug-plain-loader": "^1.1.0",

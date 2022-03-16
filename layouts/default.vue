@@ -1,9 +1,12 @@
 <template lang="pug">
-  div(id="hoge")
+  div(class="wrapper")
     SiteHeader
     Nuxt
     SiteFooter
 </template>
+
+<style lang="scss">
+</style>
 
 <script>
 export default {

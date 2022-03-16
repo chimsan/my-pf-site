@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="116" viewBox="0 0 40 116">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="40" height="116" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="deco-arrows" data-name="deco-arrows" clip-path="url(#clip-path)">
+    <g transform="translate(-620 -722)">
+      <path id="arrow_1" data-name="arrow_1" d="M20,0,40,24H0Z" transform="translate(660 746) rotate(180)" fill="#d9ad9a"/>
+    </g>
+    <g transform="translate(-620 -678)">
+      <path id="arrow_2" data-name="arrow_2" d="M20,0,40,24H0Z" transform="translate(660 746) rotate(180)" fill="#d9ad9a"/>
+    </g>
+    <g transform="translate(-620 -634)">
+      <path id="arrow_3" data-name="arrow_3" d="M20,0,40,24H0Z" transform="translate(660 746) rotate(180)" fill="#d9ad9a"/>
+    </g>
+  </g>
+</svg>

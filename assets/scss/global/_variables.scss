@@ -1,0 +1,35 @@
+// bgcolor設定
+$bg-base: #e8e1e4;
+
+// font color
+$fc-base: #29000A;
+
+// link color
+$fc-link: #29000A;
+$fc-link-hover: #D9AD9A;
+
+// line color
+$line-color: #D9AD9A;
+
+// font-size設定
+$fs-x-large: 2.4rem; //同意確認ボタン
+$fs-large: 1.8rem; //ページタイトル
+$fs-base: 1.3rem; //標準
+$fs-small: 1.2rem; //注意事項ボタンのテキスト
+$fs-x-small: 1.0rem; //お知らせラベル、日付、ガチャ提供割合の値、タブ
+
+// device size
+$device-sp-min: 320px;
+$device-sp: 750px;
+$device-pc: 751px;
+
+
+// //tab
+// @media screen and (min-width: 600px) {
+  
+// }
+
+// //PC
+// @media screen and (min-width: 1025px) {
+  
+// }
