@@ -1,6 +1,6 @@
 <template lang="pug">
-  FadeIn(class="section c-profile")
-    h3(id="profile") Profile
+  FadeIn(id="profile" class="section c-profile")
+    h3 Profile
     div(class="c-profile__inner")
       figure
         img(src="@/assets/images/icon-prof.jpg" width="187" height="auto" alt="プロフィール画像")

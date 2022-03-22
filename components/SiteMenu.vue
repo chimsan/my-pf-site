@@ -4,11 +4,11 @@
       nav
         ul
           li
-            nuxt-link(tag="a" class="" to="#" v-scroll-to="{el: '#profile'}")
+            nuxt-link(to="/#profile")
               | Profile
-          //- li
-          //-   nuxt-link(tag="a" class="" to="/work")
-          //-     | Work
+          li
+            nuxt-link(to="/work")
+              | Work
     div(class="sp")
       button(@click.prevent="toggleSpMenu" class="button")
         SvgIconSpMenu
@@ -22,18 +22,17 @@
           li
             a(href="#" style="pointer-events:none;")
               | MENU
+            nuxt-link(to="/work" @click.native="toggleSpMenu")
+              | Work
           li
-            nuxt-link(class="" tag="a" to="#" v-scroll-to="{el: '#profile'}")
+            nuxt-link(:to="{ path: '/', hash:'#profile' }" @click.native="toggleSpMenu")
               | Profile
           li
-            nuxt-link(class="" tag="a" to="#" v-scroll-to="{el: '#skill'}")
+            nuxt-link(to="/#skill" @click.native="toggleSpMenu")
               | Skill
           li
-            nuxt-link(class="" tag="a" to="#" v-scroll-to="{el: '#qiita'}")
+            nuxt-link(to="/#qiita" @click.native="toggleSpMenu")
               | Qiita
-          //- li
-          //-   nuxt-link(tag="a" class="" to="/work" v-scroll-to="{el: '#work'}")
-          //-     | Work
 </template>
 
 <script>
@@ -52,7 +51,6 @@ export default {
   },
   methods: {
     toggleSpMenu() {
-      console.log("toggleSpMenu");
       this.isActive = !this.isActive;
     }
   }
@@ -63,6 +61,7 @@ export default {
 @use '@/assets/scss/global' as g;
 
 .site-menu {
+  z-index: g.$z-menu;
   position: relative;
   flex-grow: 1;
   @media screen and (max-width: g.$device-sp) {

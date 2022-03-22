@@ -1,6 +1,6 @@
 <template lang="pug">
-  FadeIn(class="section c-qiita")
-      h3(id="qiita") Qiita
+  FadeIn(id="qiita" class="section c-qiita")
+      h3 Qiita
       p
         | 技術的な情報まとめ（諸事情により限定公開）
       ul
