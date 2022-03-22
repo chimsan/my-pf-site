@@ -114,6 +114,9 @@ export default {
 }
 
 .modal{
+  &__frame {
+    min-width: 260px;
+  }
   &__title {
     font-size: 2.4rem;
     margin: 0 0 2rem;
@@ -135,6 +138,7 @@ export default {
     flex: 0 1 45%;
     width: 45%;
     min-width: 200px;
+    line-height: 0;
   }
   &__detail {
     flex: 0 1 50%;
