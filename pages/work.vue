@@ -1,12 +1,13 @@
 <template lang="pug">
-  section(class="page-work")
-    div(class="page-work__inner" v-for="work in workList")
-      h3(v-html="work.title")
-      ul(class="work-items")
-        li(class="work-items__item" v-for="item in work.itemList" @click.prevent="openModalDetail(item)")
-          div(class="work-items__thumb")
-            img(:src="item.thumb" alt="item.title")
-          div(class="work-items__detail" v-html="item.title")
+  div
+    section(class="page-work")
+      div(class="page-work__inner" v-for="work in workList")
+        h3(v-html="work.title")
+        ul(class="work-items")
+          li(class="work-items__item" v-for="item in work.itemList" @click.prevent="openModalDetail(item)")
+            div(class="work-items__thumb")
+              img(:src="item.thumb" alt="item.title")
+            div(class="work-items__detail" v-html="item.title")
 
     ModalDetail(v-if="isModalShow" @close-modal-detail="closeModalDetail")
       h4(class="modal__title" v-html="modalDetailData.title")

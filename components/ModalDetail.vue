@@ -44,7 +44,7 @@ export default {
     overflow: hidden;
     background-color: g.$bg-base;
     @media screen and (max-width: g.$device-sp) {
-      margin-top: 6rem;
+      margin-top: 4rem;
       width: 85%;
     }
   }
