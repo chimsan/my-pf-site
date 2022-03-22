@@ -24,7 +24,7 @@ export default {
 div[class^="top-image-"] {
   margin: 0 auto;
   width: 100%;
-  min-width: g.$device-sp-min;
+  min-width: calc(g.$device-sp-min - 4.5rem);
   max-width: 1080px;
   max-height: 608px;
   height: auto;
