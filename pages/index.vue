@@ -8,7 +8,6 @@
     BoxProfile
     BoxSkill
     BoxQiita
-
 </template>
 
 <script>
@@ -26,10 +25,12 @@ export default {
 @use '@/assets/scss/global' as g;
 
 .c-arrows {
-  text-align: center;
   margin-top: 6rem;
   margin-left: auto;
   margin-right: auto;
+  @media screen and (max-width: g.$device-sp) {
+    margin-top: 3rem;
+  }
   svg {
     display: flex;
     justify-content: center;
