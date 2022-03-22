@@ -61,6 +61,7 @@ export default {
 @use '@/assets/scss/global' as g;
 
 .site-menu {
+  z-index: g.$z-menu;
   position: relative;
   flex-grow: 1;
   @media screen and (max-width: g.$device-sp) {

@@ -1,7 +1,8 @@
 <template lang="pug">
   div(class="wrapper")
     SiteHeader
-    Nuxt
+    transition(name="page")
+      Nuxt
     SiteFooter
 </template>
 

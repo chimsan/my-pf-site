@@ -37,7 +37,10 @@ h2 {
   font-size: g.$fs-base;
 }
 
-ul {
+ul,
+dl,
+dt,
+dd {
   padding: 0;
   margin: 0;
   list-style-type: none;

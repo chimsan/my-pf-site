@@ -51,3 +51,10 @@ section[class^="page-"] {
     padding: 0 2.5rem;
   }
 }
+
+.page-enter {
+  opacity: 0;
+}
+.page-enter-active {
+  transition:  opacity .5s;
+}
