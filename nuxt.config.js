@@ -22,15 +22,12 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     'normalize.css',
-    'swiper/swiper-bundle.css',
     '~/assets/scss/index.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    { src: '~plugins/awesome-swiper', ssr: false },
-    { src: '~plugins/vue-scrollto' }
-    
+    '~plugins/vue-scrollto'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -57,10 +54,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    vendor: [
-      'vue-scrollto',
-      'vue-awesome-swiper'
-    ],
     loaders: {
       scss: {
         implementation: require('sass'),

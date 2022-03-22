@@ -32,6 +32,10 @@ h3 {
 
 .section {
   margin-top: 12rem;
+  @media screen and (max-width: g.$device-sp) {
+    margin-top: 6rem;
+  }
+
 }
 
 a {
@@ -50,4 +54,7 @@ section[class^="page-"] {
   @media screen and (max-width: g.$device-sp) {
     padding: 0 2.5rem;
   }
+}
+
+#header {
 }
