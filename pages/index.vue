@@ -8,6 +8,7 @@
     BoxProfile
     BoxSkill
     BoxQiita
+
 </template>
 
 <script>
