@@ -51,7 +51,6 @@ export default {
   },
   methods: {
     toggleSpMenu() {
-      console.log("toggleSpMenu");
       this.isActive = !this.isActive;
     }
   }

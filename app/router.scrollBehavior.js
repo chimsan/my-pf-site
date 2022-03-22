@@ -7,10 +7,10 @@ export default async function (to, from, savedPosition) {
     return document.querySelector(hash) ||
     new Promise((resolve, reject) => {
       if (x > 50) {
-          return resolve();
+        return resolve();
       }
       setTimeout(() => {
-          resolve(findElem(hash, ++x || 1));
+        resolve(findElem(hash, ++x || 1));
       }, 100);
     });
   }
