@@ -1,5 +1,5 @@
 <template lang="pug">
-  section(class="section c-skill")
+  FadeIn(class="section c-skill")
     h3(id="skill") Skill
     p
       | HTML5+CSS3 / Vue.js / Nuxt.js / JavaScript / TypeScript / Photoshop / Adobe XD / git / github
@@ -11,8 +11,12 @@
 </template>
 
 <script>
+import FadeIn from '~/components/FadeIn.vue'
 export default {
-  name: 'SkillBox'
+  name: 'BoxSkill',
+  components: {
+    FadeIn
+  }
 }
 </script>
 
