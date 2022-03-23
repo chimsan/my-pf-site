@@ -12,7 +12,8 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
+      { name: 'robots', content:'none' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/my-pf-site/favicon.ico' }
@@ -27,7 +28,8 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '~plugins/vue-scrollto'
+    { src: '~/plugins/vue-scrollto' },
+    { src: '~/plugins/smooth-scroll-polyfill', mode: 'client' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

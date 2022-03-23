@@ -1,6 +1,6 @@
 <template lang="pug">
   footer(id="footer")
-    nuxt-link(class="btn-goto-top" tag="button" to="#" v-scroll-to="{el: '#header'}")
+    nuxt-link(class="btn-goto-top" tag="button" to="#header")
       span TOP
     h3 contact
     p

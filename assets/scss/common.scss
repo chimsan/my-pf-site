@@ -32,10 +32,6 @@ h3 {
 
 .section {
   margin-top: 12rem;
-  @media screen and (max-width: g.$device-sp) {
-    margin-top: 6rem;
-  }
-
 }
 
 a {
@@ -56,5 +52,9 @@ section[class^="page-"] {
   }
 }
 
-#header {
+.page-enter {
+  opacity: 0;
+}
+.page-enter-active {
+  transition:  opacity .5s;
 }

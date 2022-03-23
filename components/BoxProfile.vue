@@ -1,6 +1,6 @@
 <template lang="pug">
-  section(class="section c-profile")
-    h3(id="profile") Profile
+  FadeIn(id="profile" class="section c-profile")
+    h3 Profile
     div(class="c-profile__inner")
       figure
         img(src="@/assets/images/icon-prof.jpg" width="187" height="auto" alt="プロフィール画像")
@@ -20,8 +20,12 @@
 </template>
 
 <script>
+import FadeIn from '~/components/FadeIn.vue'
 export default {
-  name: 'ProfileBox'
+  name: 'BoxProfile',
+  components: {
+    FadeIn
+  }
 }
 </script>
 

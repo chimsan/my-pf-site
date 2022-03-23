@@ -14,14 +14,15 @@ $fc-link-hover: #D9AD9A;
 
 // line color
 $line-color: #D9AD9A;
+$line-color-thumb: #29000A;
 
 
 // font-size設定
-$fs-x-large: 2.4rem; //同意確認ボタン
-$fs-large: 1.8rem; //ページタイトル
+$fs-x-large: 2.4rem;
+$fs-large: 1.8rem;
 $fs-base: 1.3rem; //標準
-$fs-small: 1.2rem; //注意事項ボタンのテキスト
-$fs-x-small: 1.0rem; //お知らせラベル、日付、ガチャ提供割合の値、タブ
+$fs-small: 1.2rem; 
+$fs-x-small: 1.0rem;
 
 // device size
 $device-sp-min: 320px;
@@ -31,10 +32,12 @@ $device-pc: 751px;
 
 // z-index
 $z-page: 10;
-$z-sp-menu: 11;
-$z-sp-menu-link: 12;
-$z-sp-menu-btn: 13;
-$z-sp-menu-btn-active: 14;
+$z-menu: 11;
+$z-sp-menu: 12;
+$z-sp-menu-link: 13;
+$z-sp-menu-btn: 14;
+$z-sp-menu-btn-active: 15;
+$z-modal-detail-overlay: 95;
 
 // //tab
 // @media screen and (min-width: 600px) {
