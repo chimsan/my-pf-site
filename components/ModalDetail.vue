@@ -67,10 +67,6 @@ export default {
 .modal-detail-enter,
 .modal-detail-leave-to {
   opacity: 0;
-  .modal-detail__frame {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
 }
 @media screen and (max-width: g.$device-sp) {
 
