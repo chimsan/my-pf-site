@@ -25,9 +25,7 @@
 
 <script>
 import thumb1 from '@/assets/images/thumb/thumb1.jpg';
-import thumb2 from '@/assets/images/thumb/thumb2.jpg';
-import thumb3 from '@/assets/images/thumb/thumb3.jpg';
-import thumb4 from '@/assets/images/thumb/thumb4.jpg';
+import thumbNo from '@/assets/images/thumb/thumb-no.jpg';
 import ModalDetail from '~/components/ModalDetail.vue';
 
 export default {
@@ -46,9 +44,9 @@ export default {
         },
         { title: '業務',
           itemList: [
-            { title: 'アプリゲーム公式サイトA', detail: 'TOP＆子ページコーディング<br>PC版,SP版レスポンシブ対応', skill: 'HTML5+CSS3/Ruby on rails/Vue.js/JS,TS/git', thumb: thumb2 },
-            { title: 'アプリゲーム公式サイトB', detail: 'TOP＆子ページコーディング', skill: 'HTML5+CSS3/Ruby on rails/Vue.js/JS,TS/git', thumb: thumb3 },
-            { title: 'アプリゲーム公式イベント用サイトC', detail: 'コーディング/静的化', skill: 'HTML5+CSS3/Nuxt.js/Vue.js/JS/git', thumb: thumb4 }
+            { title: 'アプリゲーム公式サイトA', detail: 'TOP＆子ページコーディング<br>PC版,SP版レスポンシブ対応', skill: 'HTML5+CSS3/Ruby on rails/Vue.js/JS,TS/git', thumb: thumbNo },
+            { title: 'アプリゲーム公式サイトB', detail: 'TOP＆子ページコーディング', skill: 'HTML5+CSS3/Ruby on rails/Vue.js/JS,TS/git', thumb: thumbNo },
+            { title: 'アプリゲーム公式イベント用サイトC', detail: 'コーディング/静的化', skill: 'HTML5+CSS3/Nuxt.js/Vue.js/JS/git', thumb: thumbNo }
           ]
         }
       ],
